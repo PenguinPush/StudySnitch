@@ -13,17 +13,21 @@
         "default_title": "Chrome Addon v3 Starter",
         "default_popup": "popup/popup.html"
     },
-    "permissions": ["tabs", "activeTab"],
+    "permissions": ["activeTab", "storage"],
     "host_permissions": [
         "*://*/*"
     ],
     "background": {
-        "service_worker": "service-worker.js",
-        "scripts": ["background.js"],
-        "persistent": false
+        "service_worker": "background.js"
     },
     "content_scripts": [{
-        "js": ["content.js"],
-        "matches": ["<all_urls>"]
+        "matches": ["*://www.instagram.com/*",
+        "*://discord.com/*",
+        "*://www.youtube.com/watch?v=CtpdMkKvB6U/*",
+        "*://www.youtube.com/watch?v=Na34j-ZKBu0/*",
+        "*://www.coolmathgames.com/*",
+        "*://www.tiktok.com/*",
+        "*://www.twitter.com/*"],
+        "js": ["content.js"]
     }]
 }
