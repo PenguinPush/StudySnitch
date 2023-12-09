@@ -8,7 +8,8 @@ const imageSources = [
     "https://katu.com/resources/media2/16x9/full/1015/center/80/69b9b8ad-e24c-485b-b3c9-3ca8f4ecb300-large16x9_nuclearprepare.PNG",
     "https://media.discordapp.net/attachments/1175233374265299057/1183173737743405117/IMG_4078.webp?ex=65875f69&is=6574ea69&hm=61b250576e1aa9e3b05181a1789f94da0d9b017b6bd0a79787b9c1f3d4ff97b0&=&format=webp&width=828&height=645",
     "https://www.ontariouniversitiesinfo.ca/assets/files/images/2.jpg",
-    "https://media.discordapp.net/attachments/1175233374265299057/1183175338193330327/IMG_4083.png?ex=658760e6&is=6574ebe6&hm=f8c590caf2cd0c1eb4bb1af19d32de6bbba6db8849039680524a55baadc7a3f6&=&format=webp&quality=lossless&width=1170&height=921"
+    "https://media.discordapp.net/attachments/1175233374265299057/1183175338193330327/IMG_4083.png?ex=658760e6&is=6574ebe6&hm=f8c590caf2cd0c1eb4bb1af19d32de6bbba6db8849039680524a55baadc7a3f6&=&format=webp&quality=lossless&width=1170&height=921",
+    "https://media.discordapp.net/attachments/1175233374265299057/1183176857412178041/IMG_4089.png?ex=65876251&is=6574ed51&hm=f9d3add45d8b265d4b2870cf1ea53a6de2aafcb7b5c7aa1006d5610f69a888af&=&format=webp&quality=lossless&width=1251&height=921"
   ];
 
   const allowedSites = [
