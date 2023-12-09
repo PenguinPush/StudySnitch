@@ -1,4 +1,4 @@
-# StudySnitch
+# StudySlap
 texts all your friends that you're not studying when you're supposed to be
 
 minimum viable product:
