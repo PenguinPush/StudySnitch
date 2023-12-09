@@ -4,9 +4,9 @@
     "description": "annihilates your eardrums if you get off task",
     "version": "0.0.1",
     "icons": {
-        "16": "logo/logo-16.png",
-        "48": "logo/logo-48.png",
-        "128": "logo/logo-128.png"
+        "16": "popup/images/14-on.jpg",
+        "48": "popup/images/48on.jpg",
+        "128": "popup/images/128on.jpg"
     },
     "options_page": "settings/settings.html",
     "action": {
