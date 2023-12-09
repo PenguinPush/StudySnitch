@@ -40,8 +40,6 @@ if (allowedSites.some(site => currentSite.startsWith(site))) {
     overlayDiv.style.justifyContent = "center";
     overlayDiv.style.zIndex = "9999";
 
-    document.body.style.overflow = "hidden";
-
     const imageElement = document.createElement("img");
     imageElement.src = imageSources[randomImageIndex];
     imageElement.style.width = "80%";
@@ -56,5 +54,7 @@ if (allowedSites.some(site => currentSite.startsWith(site))) {
     setTimeout(() => {
     imageElement.style.opacity = "0.7";
     }, 100);
+
+    document.body.style.overflow = "hidden";
 
 }

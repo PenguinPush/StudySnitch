@@ -1,4 +1,7 @@
-let bool = false;
+let bool
+if (bool = null){
+  bool = false
+} 
 
 document.addEventListener('DOMContentLoaded', function () {
   var checkbox = document.querySelector('input[type="checkbox"]');
