@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Chrome Extension v3 Starter",
-    "description": "A minimal example of a chrome extension using manifest v3",
+    "name": "Study Slap",
+    "description": "annihilates your eardrums if you get off task",
     "version": "0.0.1",
     "icons": {
         "16": "logo/logo-16.png",
@@ -13,15 +13,17 @@
         "default_title": "Chrome Addon v3 Starter",
         "default_popup": "popup/popup.html"
     },
-    "permissions": [],
+    "permissions": ["tabs", "activeTab"],
     "host_permissions": [
         "*://*/*"
     ],
     "background": {
-        "service_worker": "service-worker.js"
+        "service_worker": "service-worker.js",
+        "scripts": ["background.js"],
+        "persistent": false
     },
     "content_scripts": [{
-        "js": ["foreground.js"],
-        "matches": ["https://github.com/*"]
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
     }]
 }
