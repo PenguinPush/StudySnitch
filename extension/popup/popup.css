@@ -6,30 +6,30 @@ body {
     height: 4rem;
 
 }
+p {
+  margin: 0;
+}
 .container {
+  display: flex;
+  flex-direction: column;
 }
 
 .top-text {
-    text-align: center;
+  display: block;
 }
-
+.top-text-a {
+  display: flex;
+  justify-content: center;
+}
 .special-text {
     color: red;
 }
-
-.off-button {
-    height: 50px;
-    width: auto;
-    background-color: transparent;
-    border: none;
-    
+.onbutton {
+  display: block;
 }
-.off-button:hover {
-    cursor: pointer;
-    opacity: 0.9;
-}
-.off-button:active {
-    opacity: 0.7;
+.onbutton-a {
+  display: flex;
+  justify-content: center;
 }
 .off-image {
     margin-left: auto;
@@ -39,9 +39,15 @@ body {
     width: 100%;
 }
 /* The switch - the box around the slider */
+
+.onbutton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .switch {
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 60px;
     height: 34px;
   }
@@ -61,7 +67,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #f5daa5;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -73,7 +79,7 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(244, 212, 85);
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -99,4 +105,21 @@ body {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+  .buttons {
+    display: block;
+  }
+  .buttons-a {
+    display: flex;
+    justify-content: center;
+  }
+  .settings {
+    background-color: transparent;
+    border: none;
+    height: auto;
+    width: auto;
+  }
+  .settings-img {
+    height: 100%;
+    width: 100%;
   }
