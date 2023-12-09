@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Study Slap",
-    "description": "annihilates your eardrums if you get off task",
+    "description": "Hack your productivity",
     "version": "0.0.1",
     "icons": {
         "16": "popup/images/14-on.png",
