@@ -9,6 +9,9 @@ body {
     justify-content: center;
 }
 
+.top-text {
+    display: block;
+}
 .special-text {
     color: red;
 }
