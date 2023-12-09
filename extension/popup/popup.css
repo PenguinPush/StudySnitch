@@ -9,3 +9,13 @@ body {
 .special-text {
     color: red;
 }
+
+.off-button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+.off-image {
+    height: 100%;
+    width: 100%;
+}
