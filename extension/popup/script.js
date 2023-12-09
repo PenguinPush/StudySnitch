@@ -1,4 +1,13 @@
 let bool = false;
+
+document.addEventListener('DOMContentLoaded', function () {
+  var checkbox = document.querySelector('input[type="checkbox"]');
+  checkbox.addEventListener('click', function () {
+    showStuff();
+    change();
+  });
+});
+
 function showStuff() {
   console.log('showstuff');
   bool = !bool;
@@ -18,6 +27,6 @@ function change() {
   if (bool) {
     img.src = "images/on-state.jpg";
   } else {
-    img.src = "images/off-state.jpg";
+    img.src = "images/better-off-state.PNG";
   }
 }
