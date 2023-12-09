@@ -30,3 +30,29 @@ function change() {
     img.src = "images/better-off-state.PNG";
   }
 }
+function handleCheckboxState() {
+  const checkbox = document.getElementById('myCheckbox');
+
+  chrome.storage.sync.get({ isChecked: false }, function (data) {
+    checkbox.checked = data.isChecked;
+    if (checkbox.checked) {
+      showStuff();
+      change();
+    }
+  });
+
+
+  checkbox.addEventListener('change', function () {
+    const isChecked = checkbox.checked;
+
+    chrome.storage.sync.set({ isChecked });
+
+    if (isChecked) {
+      showStuff();
+      change();
+    }
+  });
+}
+
+
+document.addEventListener('DOMContentLoaded', handleCheckboxState);
