@@ -21,13 +21,7 @@
         "service_worker": "background.js"
     },
     "content_scripts": [{
-        "matches": ["*://www.instagram.com/*",
-        "*://discord.com/*",
-        "*://www.youtube.com/watch?v=CtpdMkKvB6U/*",
-        "*://www.youtube.com/watch?v=Na34j-ZKBu0/*",
-        "*://www.coolmathgames.com/*",
-        "*://www.tiktok.com/*",
-        "*://www.twitter.com/*"],
+        "matches": ["<all_urls>"],
         "js": ["content.js"]
     }]
 }
