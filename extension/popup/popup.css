@@ -19,7 +19,7 @@ body {
 .off-button {
     display: block;
     height: 50px;
-    width: 50px;
+    width: 100%;
     background-color: transparent;
 }
 .off-image {
