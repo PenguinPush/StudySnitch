@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="popup.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/switch.css">
@@ -33,23 +34,23 @@
       </div>
     </div>
     -->
-    <!--D58F08 CF5801 13% opacity 41%-->-->
+    <!--D58F08 CF5801 13% opacity 41%-->
     <div class="one">
       <p class="title">Study Slap</p>
     </div>
     <div class="two">
       <p class="subtitle">Hack your productivity</p>
     </div> 
-    <div class="three"> 
-      <button class="streak"><span class="streak-text">Streak&#128293</span></button>
-      <button class="hours"><span class="hours-text">5 hours</span></button>
-    </div>
+    <div class="three" id="three"> 
+      <button class="streak" id="streak"><span class="streak-text">Streak&#128293</span></button>
+      <button class="hours" id="hours"><span class="hours-text">5 hours</span></button>
+    </div> 
     <div class="four">
-      <img class="off" src="images/off-state.jpg" alt="off">
+      <img id="img" class="off" src="images/off-state.jpg" alt="off">
     </div class="five">
     <div class="five">
       <label class="switch">
-        <input type="checkbox">
+        <input onclick="showStuff();change();" type="checkbox">
         <span class="slider round"></span>
       </label>
     </div>

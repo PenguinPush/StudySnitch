@@ -4,8 +4,9 @@ body {
   justify-content: center;
 }
 p {
-  margin: 0 0 0 0;
+  margin: 0px 0px 0px 0px;
   font-family: 'Poppins', sans-serif;
+  padding: 0px 0px 0px 0px;
 }
 .one,.two,.three,.four,.five{
   display: flex;
@@ -18,27 +19,28 @@ p {
 .subtitle {
   color: orange;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .three {
-  margin-bottom: 10px;
+  display: none;
+  margin-bottom: 5px;
 }
 .streak {
   background: rgba(213,143,8,0.13);
   border: none;
   padding: 2px 1px 4px 5px;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: transparent;
 }
 .streak:hover {
-  cursor: pointer;
+  transition: border-color 1s;
 }
-.streak:active {
-
-}
-
 .hours {
   margin-left: 10px;
   background-color: rgba(213,143,8,0.41);
   border: none;
+  border-radius: 6px;
 }
 .hours:hover {
   cursor: pointer;
@@ -50,6 +52,6 @@ p {
 .off {
   height: 70px;
   width: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-left: 5px;
 }
