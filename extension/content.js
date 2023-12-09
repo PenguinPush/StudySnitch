@@ -3,7 +3,6 @@ let overlayDiv;
 const imageSources = [
     "https://media.discordapp.net/attachments/1175233374265299057/1183157313654247484/IMG_4066.png?ex=6587501d&is=6574db1d&hm=da0ff425a1e2422cfde3d374b3a50ff6c553a27091f4784852d1cee0b0c7bd77&=&format=webp&quality=lossless&width=1194&height=921",
     "https://media.discordapp.net/attachments/1175233374265299057/1183159092458557522/IMG_4070.png?ex=658751c5&is=6574dcc5&hm=6539b4c9862bb7806378de52c6ae81c7594d6112261dc542995b56cc9fd614d1&=&format=webp&quality=lossless&width=1215&height=921",
-    "https://media.discordapp.net/attachments/1175233374265299057/1183161058299482142/IMG_4072.jpg?ex=6587539a&is=6574de9a&hm=cbd28472c07315b2d6f66242c6c414210772fb2517fc438b678c5502da2cb388&=&format=webp&width=1380&height=921",
     "https://media.discordapp.net/attachments/1175233374265299057/1183164198470037625/IMG_4076.png?ex=65875687&is=6574e187&hm=f27fc913f7309250243e562f8438f9748078d66027d8b7fece51f60e2b7985db&=&format=webp&quality=lossless&width=1476&height=921",
     "https://katu.com/resources/media2/16x9/full/1015/center/80/69b9b8ad-e24c-485b-b3c9-3ca8f4ecb300-large16x9_nuclearprepare.PNG",
     "https://media.discordapp.net/attachments/1175233374265299057/1183173737743405117/IMG_4078.webp?ex=65875f69&is=6574ea69&hm=61b250576e1aa9e3b05181a1789f94da0d9b017b6bd0a79787b9c1f3d4ff97b0&=&format=webp&width=828&height=645",
