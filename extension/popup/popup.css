@@ -1,28 +1,37 @@
 body {
-    display: flex;
     background-color: #222;
     color: #eee;
 
     width: 16rem;
     height: 4rem;
 
-    justify-content: center;
 }
-
+.container {
+}
 .top-text {
-    display: block;
+    text-align: center;
 }
 .special-text {
     color: red;
 }
 
 .off-button {
-    display: block;
     height: 50px;
-    width: 100%;
+    width: auto;
     background-color: transparent;
+    border: none;
+    
+}
+.off-button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.off-button:active {
+    opacity: 0.7;
 }
 .off-image {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     height: 100%;
     width: 100%;
