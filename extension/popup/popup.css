@@ -1,4 +1,5 @@
 body {
+    display: flexbox;
     background-color: #222;
     color: #eee;
 
@@ -16,7 +17,6 @@ body {
     height: 50px;
     width: 50px;
     background-color: transparent;
-    justify-content: center;
 }
 .off-image {
     height: 100%;
