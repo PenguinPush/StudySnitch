@@ -9,6 +9,7 @@ const imageSources = [
     "https://www.ontariouniversitiesinfo.ca/assets/files/images/2.jpg",
     "https://media.discordapp.net/attachments/1175233374265299057/1183175338193330327/IMG_4083.png?ex=658760e6&is=6574ebe6&hm=f8c590caf2cd0c1eb4bb1af19d32de6bbba6db8849039680524a55baadc7a3f6&=&format=webp&quality=lossless&width=1170&height=921",
     "https://media.discordapp.net/attachments/1175233374265299057/1183176857412178041/IMG_4089.png?ex=65876251&is=6574ed51&hm=f9d3add45d8b265d4b2870cf1ea53a6de2aafcb7b5c7aa1006d5610f69a888af&=&format=webp&quality=lossless&width=1251&height=921"
+    "https://dailynorthwestern.com/wp-content/uploads/2019/04/admissionsgraph-900x655.jpg"
   ];
 
   const allowedSites = [
@@ -19,6 +20,7 @@ const imageSources = [
     "https://www.coolmathgames.com",
     "https://www.tiktok.com",
     "https://www.twitter.com"
+    "https://www.quora.com"
   ];
 
 const currentSite = window.location.href;
